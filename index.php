@@ -19,11 +19,15 @@
   <body>
     <?php include('navbar.php')?>
     <main>
+
+   
       <!-- bagian hero section -->
+      <?php  
+      echo '
       <section class="jumbotron text-center" id="Home">
         <img src="images/pp.png" alt="Roger" width="200" class="hovered-card rounded-circle img-thumbnail" />
-        <h1 class="display-4">I'm <span class="auto-input"></span></h1>
-        <p class="lead"><?php echo('Welcome To My Page')?></p>
+        <h1 class="display-4">Im <span class="auto-input"></span></h1>
+        <p class="lead">Welcome To My Page</p>
         <svg class="jumbutron-gelombang" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#baff39"
@@ -38,13 +42,13 @@
         <div class="container">
           <div class="row text-center mb-4 m-0">
             <div class="col">
-              <h2><?php echo('About Me')?></h2>
+              <h2>About Me</h2>
             </div>
           </div>
           <div class="row justify-content-center fs-5 text-center">
             
-            <div class="col-md-4"><?php echo('Jakarta State Polytechnic Student Department of Informatics Engineering Semester 2 and CCIT FTUI Software Engineering Semester 4th') ?></div>
-            <div class="col-md-4"><?php echo('My daily do is sleeping, Coding, helping my mother , playing games') ?></div>
+            <div class="col-md-4">Jakarta State Polytechnic Student Department of Informatics Engineering Semester 2 and CCIT FTUI Software Engineering Semester 4th</div>
+            <div class="col-md-4">My daily do is sleeping, Coding, helping my mother , playing games</div>
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -55,8 +59,11 @@
           ></path>
         </svg>
       </section>
+      '
+      ?>
       <!-- Akhir About -->
-
+  
+      
       <!-- Project Awal -->
      <?php include('project.php')?>
       <!-- Project Akhir -->
